@@ -61,6 +61,11 @@ PRODUCT_PACKAGES += \
  PRODUCT_PACKAGES += \
     BluetoothQti
 
+# Camera
+PRODUCT_PACKAGES += \
+    libmedia_jni_shim
+
+
 # Google Camera
 PRODUCT_PACKAGES += \
     GoogleCameraGo
