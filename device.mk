@@ -158,3 +158,7 @@ PRODUCT_PACKAGES += \
     TelecommResCommon \
     TelephonyResCommon \
     WifiResCommon
+
+#AOSP WPA Supplicant Override
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/vintf/manifest/manifest.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/etc/vintf/manifest/manifest.xml
