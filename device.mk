@@ -64,7 +64,11 @@ PRODUCT_PACKAGES += \
 # Google Camera
 PRODUCT_PACKAGES += \
     GoogleCameraGo
-    
+
+# GalleryGo
+PRODUCT_PACKAGES += \
+    GalleryGo
+
 # Codec2 modules
 PRODUCT_PACKAGES += \
     com.android.media.swcodec \
