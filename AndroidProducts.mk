@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/conquer_juice.mk
+    $(LOCAL_DIR)/aosp_juice.mk
 
 COMMON_LUNCH_CHOICES := \
-    conquer_juice-user \
-    conquer_juice-userdebug \
-    conquer_juice-eng
+    aosp_juice-user \
+    aosp_juice-userdebug \
+    aosp_juice-eng
