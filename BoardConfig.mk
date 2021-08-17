@@ -213,5 +213,8 @@ BOARD_AVB_RECOVERY_ROLLBACK_INDEX_LOCATION := 1
 # Enable real time lockscreen charging current values
 BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
 
+#Screen Density
+TARGET_SCREEN_DENSITY := 480
+
 # Inherit from the proprietary version
 -include vendor/xiaomi/juice/BoardConfigVendor.mk
