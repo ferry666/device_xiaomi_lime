@@ -64,7 +64,7 @@ PRODUCT_PACKAGES += \
 # Google Camera
 PRODUCT_PACKAGES += \
     GoogleCameraGo
-    
+
 # Codec2 modules
 PRODUCT_PACKAGES += \
     com.android.media.swcodec \
@@ -135,7 +135,8 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay
+    $(LOCAL_PATH)/overlay \
+    $(LOCAL_PATH)/overlay-nad
 
 # Remove unwanted packages
 PRODUCT_PACKAGES += \
