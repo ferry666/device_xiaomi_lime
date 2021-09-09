@@ -162,4 +162,5 @@ PRODUCT_PACKAGES += \
     SystemUIResCommon \
     TelecommResCommon \
     TelephonyResCommon \
-    WifiResCommon
+    WifiResCommon \
+    NotchBarKiller
